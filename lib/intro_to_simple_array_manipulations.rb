@@ -13,7 +13,7 @@ def using_pop(array = my_array)
   array.pop
 end
 
-def using_pop_with_args(array = my_array)
+def pop_with_args(array = my_array)
   my_array = ["Eric", "Kathryn", "John", "Seth"]
   array.pop(2)
 end
