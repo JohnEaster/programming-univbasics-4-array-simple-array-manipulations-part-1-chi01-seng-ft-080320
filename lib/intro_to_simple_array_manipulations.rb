@@ -1,3 +1,6 @@
-def using_push(array, string)
-  
+def using_push(array = my_array, string = "addrienne")
+  my_array = ["Eric", "Kathryn", "John", "Seth"]
+  array.push(string)
 end
+
+puts using_push(my_array, "addrienne")
