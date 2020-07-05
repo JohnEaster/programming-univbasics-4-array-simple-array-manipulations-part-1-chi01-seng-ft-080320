@@ -7,3 +7,8 @@ def using_unshift(array = my_array, string = "addrienne")
   my_array = ["Eric", "Kathryn", "John", "Seth"]
   array.unshift(string)
 end
+
+def using_pop(array = my_array)
+  my_array = ["Eric", "Kathryn", "John", "Seth"]
+  array.pop
+end
