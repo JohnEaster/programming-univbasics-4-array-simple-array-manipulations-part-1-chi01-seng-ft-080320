@@ -17,3 +17,9 @@ def using_pop_with_argd(array = my_array)
   my_array = ["Eric", "Kathryn", "John", "Seth"]
   array.pop(2)
 end
+
+def using_shift(array = my_array)
+  my_array = ["Eric", "Kathryn", "John", "Seth"]
+  array.shift
+end
+
