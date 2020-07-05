@@ -23,3 +23,8 @@ def using_shift(array = my_array)
   array.shift
 end
 
+def shift_with_args(array = my_array)
+  my_array = ["Eric", "Kat", "John", "Seth"]
+  array.shift(2)
+end
+
