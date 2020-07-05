@@ -12,3 +12,8 @@ def using_pop(array = my_array)
   my_array = ["Eric", "Kathryn", "John", "Seth"]
   array.pop
 end
+
+def using_pop_with_argd(array = my_array)
+  my_array = ["Eric", "Kathryn", "John", "Seth"]
+  array.pop(2)
+end
